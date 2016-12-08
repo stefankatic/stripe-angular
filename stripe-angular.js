@@ -12,6 +12,7 @@ function($window) {
         var args = arguments;
         scope.$apply(function() {
           scope.$eval(attributes.stripeForm).apply(scope, args);
+
         });
       });
     });
